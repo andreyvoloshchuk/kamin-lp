@@ -1,0 +1,19 @@
+.box-modal {
+	position: relative;
+	padding: 22px 5px 1px 5px;
+	background: white;
+	color: white;
+	font: 14px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+	border-radius: 6px;
+}
+.box-modal .data {
+  display:block;
+  margin-top: 10px;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 90px;
+}
+
+.box-modal_close { position: absolute; right: 10px; top: 6px; font-size: 11px; line-height: 15px; color: #999; cursor: pointer; }
+.box-modal_close:hover { color: #666; }

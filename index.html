@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="script/jquery.arcticmodal-0.3.css">
+  <link rel="stylesheet" href="script/themes/simple.css">
+  <link rel="stylesheet" href="css/tracker.css">
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="script/eskju.jquery.scrollflow.js"></script>
+  <script src="script/script.js"></script>
+  <script src="script/jquery.arcticmodal-0.3.min.js"></script>
+  <script src="script/phone/jquery.maskedinput.min.js"></script>
+  <script src="script/validation.js"></script>
+  <script src="script/callback.js"></script>
+  <script src="script/modal.js"></script>
+  <script src="script/request.js"></script>
+
+</head>
+
+<body>
+  <div style="display: none;">
+    <div class="requests">
+      <div class="box-modal" id="noreq" style="height:50px">
+        <div class="box-modal_close arcticmodal-close">Закрыть</div>
+        <span class="data" style="color:red">Введите верные данные!</span>
+      </div>
+    </div>
+  </div>
+  <div style="display: none;">
+    <div class="box-modal" id="req" style="height:50px">
+      <div class="box-modal_close arcticmodal-close">Закрыть</div>
+      <span class="data" style="color:green">Запрос успешно отправлен!</span>
+    </div>
+  </div>
+
+  <div style="display: none;">
+    <div class="box-modal" id="Modal" style="height:400px">
+      <div class="box-modal_close arcticmodal-close">Закрыть</div>
+      <div class="user" style="margin-left:25px">
+        <form action="">
+          <span class="mainh1">Оставьте заявку на установку камина и получите скидку -47% а также каминный набор в подарок</span>
+          <label>
+            <input type="text" id="name" class="create-user name" placeholder="Введите Ваше имя">
+          </label>
+          <br>
+          <label>
+            <input type="tel" id="tel" class="create-user tel" placeholder="Введите Ваш телефон">
+          </label>
+          <br>
+          <input type="button" id="sendform" class="accept sendform" value="ХОЧУ СКИДКУ">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="recall">
+      <ul class="phones">
+        <li>
+          <span>(097)</span>312-33-05
+        </li>
+        <li>
+          <span>(050)</span>897-86-68
+        </li>
+        <li>
+          <input type="button" class="accept callme" value="Позвоните мне!">
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="logo">
+      <div class="kam">KAMIN</div>
+      <div class="txt">Изготовление и установка каминов
+        <br>Работаем по всей Украине
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <div class="mainform">
+    <p class="animate">Изготовление И Установка Каминов
+      <br>По Акционной Цене Со Скидкой -47%
+      <br>С Каминным Набором В Подарок</p>
+    <div class="user">
+      <form action="">
+        <span>Оставьте заявку на установку камина и получите скидку -47% а также каминный набор в подарок</span>
+        <label>
+          <input type="text" id="name" class="create-user name" placeholder="Введите Ваше имя">
+        </label>
+        <br>
+        <label>
+          <input type="tel" id="tel" class="create-user tel" placeholder="Введите Ваш телефон">
+        </label>
+        <br>
+        <input type="button" id="sendform" class="accept sendform" value="ХОЧУ СКИДКУ">
+      </form>
+    </div>
+  </div>
+  <hr>
+  <div class="present">
+    <p>Закижите прямо сейчас и
+      <br>получите каминный набор в подарок!</p>
+    <div class="description">
+      <ul>
+        <li>Набор для камина SAN MARINO (Maripoli, Польша). Цвет - черный, металлик. В комплект входят 4 предмета: </li>
+          <li>щетка</li>
+          <li>совок</li>
+          <li>щипцы</li>
+          <li>багор</li>
+      </ul>
+    </div>
+  </div>
+  <br>
+  <div class="horizontal">
+    <p>Оставьте заявку на установку камина и получите скидку -47% а также каминный набор в подарок!</p>
+    <form action="">
+      <label>
+        <input type="text" id="name" class="create-user name" placeholder="Введите Ваше имя">
+      </label>
+      <label>
+        <input type="tel" id="tel" class="create-user tel" placeholder="Введите Ваш телефон">
+      </label>
+      <input type="button" id="sendform" class="accept sendform" value="ХОЧУ СКИДКУ">
+    </form>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="exmple scrollflow -pop -opacity">
+    <p>Пакеты установки каминов:</p>
+    <br>
+    <div class="tabl">
+      <div class="column1 scrollflow -pop -opacity">
+        <span class="column-header">Характеристики</span>
+        <br>Каминная топка
+        <br>Монтажные работы
+        <br>Материалы
+        <br>Каминная потрал
+        <br>Первый запуск камина
+        <br>Инструктаж по правилам
+        <br>Стоимость камина
+        <br>Скидка на покупку (-47%)
+        <br>Стоимость камина со скидкой
+      </div>
+      <div class="column2 scrollflow -pop -opacity">
+        <span class="column-header">Стандарт</span>
+        <br>ZUZIA - 630$
+        <br>4000 грн.
+        <br>4800 грн.
+        <br>-
+        <br>+
+        <br>+
+        <br>0000
+        <br>0
+        <br>+
+      </div>
+      <div class="column3 scrollflow -pop -opacity">
+        <span class="column-header">Премиум</span>
+        <br>MA 260 SL - 1820$
+        <br>4000 грн.
+        <br>5200 грн.
+        <br>Easy - 710$
+        <br>+
+        <br>+
+        <br>0000
+        <br>0
+        <br>+
+      </div>
+      <div class="column4 scrollflow -pop -opacity">
+        <span class="column-header">VIP</span>
+        <br>MA 262 - 2250$
+        <br>6000 грн.
+        <br>8640 грн.
+        <br>Alghero - 3025$
+        <br>+
+        <br>+
+        <br>0000
+        <br>0
+        <br>+
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <br>
+  </div>
+  <div class="works">
+    <p>Наши работы:</p>
+    <div class="picture row1 scrollflow -slide-top -opacity">
+      <img src="img/work1.jpg" alt="" width="210" height="200">
+      <img src="img/work2.jpg" alt="" width="210" height="200">
+      <img src="img/work3.jpg" alt="" width="210" height="200">
+    </div>
+    <div class="picture row2 scrollflow -slide-top -opacity">
+      <img src="img/work4.jpg" alt="" width="210" height="200">
+      <img src="img/work5.jpg" alt="" width="210" height="200">
+    </div>
+    <div class="picture row3 scrollflow -slide-top -opacity">
+      <img src="img/work6.jpg" alt="" width="210" height="200">
+      <img src="img/work7.jpg" alt="" width="210" height="200">
+      <img src="img/work8.jpg" alt="" width="210" height="200">
+    </div>
+    <div style="display: none;">
+      <div class="box-modal" id="exampleModal" style="z-index:10">
+        <div class="box-modal_close arcticmodal-close">Закрыть</div>
+        <div class="image"></div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="telka">
+    <div class="user">
+      <form action="">
+        <span>Оставьте заявку на установку камина и получите скидку -47% а также каминный набор в подарок</span>
+        <label>
+          <input type="text" id="name" class="create-user name" placeholder="Введите Ваше имя">
+        </label>
+        <br>
+        <label>
+          <input type="tel" id="tel" class="create-user tel" placeholder="Введите Ваш телефон">
+        </label>
+        <br>
+        <input type="button" id="sendform" class="accept sendform" value="ХОЧУ СКИДКУ">
+      </form>
+    </div>
+  </div>
+  <hr>
+
+  <div id="tcb-call" class="cbh-widget-content cbh-show">
+    <div class="tcb-phone"></div>
+    <div class="tcb-layout" id="takecallback"></div>
+  </div>
+
+  <div class="cbh cbh-hide cbh-on" id="cbh_container" style="height: 275px;">
+    <div class="cbh-background">
+      <div class="cbh-blured">
+      </div>
+      <div class="cbh-faded">
+      </div>
+    </div>
+    <div class="cbh-arrow">
+      <div class="cbh-arrow-wrapper">
+        <div class="cbh-arrow-part">
+        </div>
+        <div class="cbh-arrow-part cbh-bottom">
+        </div>
+      </div>
+    </div>
+    <div class="cbh-body">
+      <div class="cbh-x" id="cbh-x">
+      </div>
+      <div class="cbh-icons">
+        <div class="cbh-icon cbh-icon-phone cbh-active cbh-icon-anim1">
+
+        </div>
+        <!--<div class="cbh-icon cbh-icon-subscribe cbh-icon-anim3">
+<div class="cbh-img"></div>
+<div class="cbh-text">E-mail</div>
+</div>-->
+      </div>
+      <div class="cbh-wrapper">
+
+        <div class="cbh-item cbh-show" style="height: 253px;" id="cbh_item_call_deferred">
+          <div class="cbh-text">
+            <div class="cbh-normal-text cbh-typed" id="cbh_item_call_deferred_text" style="height: 100px;">
+              <p>Появились вопросы?</p>
+              Укажите Ваш телефон, а также время когда Вам удобно говорить и мы Вам перезвоним.
+              <span class="cbh-cursor"></span>
+            </div>
+            <div class="cbh-deferred">
+              <div class="calls_time">
+                <span>Время звонка:</span>
+              </div>
+              <div class="cbh-deferred__hour">
+                <span class="cbh-deferred__hour-val">__:__</span>
+                <div class="cbh-timer-sel cbh-hide" id="cbh_timer_sel_hour">
+                  <ul class="cbh-timer-sel__hold cbh-timer-sel__hold__hour">
+                    <li>
+                      <span>09:00</span>
+                    </li>
+                    <li>
+                      <span>10:00</span>
+                    </li>
+                    <li>
+                      <span>11:00</span>
+                    </li>
+                    <li>
+                      <span>12:00</span>
+                    </li>
+                    <li>
+                      <span>13:00</span>
+                    </li>
+                    <li>
+                      <span>14:00</span>
+                    </li>
+                    <li>
+                      <span>15:00</span>
+                    </li>
+                    <li>
+                      <span>16:00</span>
+                    </li>
+                    <li>
+                      <span>17:00</span>
+                    </li>
+                    <li>
+                      <span>18:00</span>
+                    </li>
+                    <li>
+                      <span>19:00</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <form action="">
+              <input type="text" class="cbh-input" id="cbh_phone_input_deferred" value="" placeholder="Введите ваш номер" maxlength="19">
+              <input type="button" class="cbh-button" value="Жду звонка!" style="border:0">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="logo">
+      <div class="kam">KAMIN</div>
+      <div class="txt">Изготовление и установка каминов
+        <br>Работаем по всей Украине
+      </div>
+    </div>
+    <div>ОСТАЛИСЬ ВОПРОСЫ?</div>
+    <br>
+    <div>ЗВОНИТЕ!</div>
+    <br>
+    <div>(097) 312-33-05</div>
+    <br>
+    <div>(050) 897-86-68</div>
+  </div>
+</body>
+
+</html>
